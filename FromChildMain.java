@@ -4,7 +4,7 @@ import java.nio.file.Paths;
 public class FromChildMain {
 	public static void main(String[] args) {
 		if (args.length < 1) {
-			System.out.println("	usage: Child_To_Parent_Folder <dir> ...");
+			System.out.println("	usage: Child_To_Parent_Folder(child_mode) <dir> ...");
 			System.exit(0);
 		}
 
